@@ -42,7 +42,7 @@ module.exports = {
 };
 ```
 
-### Modify `tailwind.config.js` file
+### Modify `post.config.js` file
 
 ```js
     const tailwindcss = require('tailwindcss');
