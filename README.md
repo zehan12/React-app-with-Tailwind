@@ -42,6 +42,18 @@ module.exports = {
 };
 ```
 
+### Modify `tailwind.config.js` file
+
+```js
+    const tailwindcss = require('tailwindcss');
+    module.exports = {
+        plugins: [
+            tailwindcss('./tailwind.js'),
+            require('autoprefixer')
+        ],
+    };
+```
+
 ### Add tailwind base, components and utilities to `index.css`
 
 ```css
